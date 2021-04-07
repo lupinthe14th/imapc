@@ -20,7 +20,6 @@ func main() {
 	)
 
 	// Connect to the server
-	// c, _ = imap.DialTLS("pop-08.gmoserver.jp", nil)
 	c, _ = imap.DialTLS("mail.example.com", nil)
 
 	// Remember to log out and close the connection when finished
